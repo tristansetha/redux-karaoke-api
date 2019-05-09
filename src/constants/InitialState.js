@@ -22,3 +22,5 @@ export const initialState = {
     }
   }
 };
+
+// index.js files that collect data/logic from their directory and export it to the rest of the app are called module indices. This file is therefore the module index for constants, because it gathers all constants values and exports them.
