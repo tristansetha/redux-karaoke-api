@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import songChangeReducer from './songChangeReducer';
 import lyricChangeReducer from './lyricChangeReducer';
-import * as actions from './../../src/actions';
+// import * as actions from './../../src/actions';
 
 const rootReducer = combineReducers({
   currentSongId: songChangeReducer,
